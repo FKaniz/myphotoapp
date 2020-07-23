@@ -11,7 +11,7 @@ public class UserRepository {
 
     List<User> userList = new ArrayList();
     public User getUser(){
-        User user = new User("kaniz","BC", 12);
+        User user = new User(102349,"Tour-album","url","kaniz","Home",25);
         return user;
     }
 

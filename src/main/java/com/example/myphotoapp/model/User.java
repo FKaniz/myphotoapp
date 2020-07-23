@@ -8,7 +8,10 @@ public class User {
     private String address;
     private int age;
 
-    public User(String name, String address, int age) {
+    public User(int albumId, String description, String coverPicUrl, String name, String address, int age) {
+        this.albumId = albumId;
+        this.description = description;
+        this.coverPicUrl = coverPicUrl;
         this.name = name;
         this.address = address;
         this.age = age;
