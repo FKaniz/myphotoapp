@@ -9,5 +9,8 @@ public class UserRepository {
         User user = new User("kaniz","BC", 12);
         return user;
     }
+
+    public User saveUser(User user) {
+    }
 }
 
